@@ -1,5 +1,10 @@
 # cs229_reacclimate
 
+Current:
+- [x] Reach out to Allison Koenecke about using off-the-shelf tweet classifier
+- [ ] Classify Harold et al's tweet data
+- [ ] Retrain language models for climate change affirmers, non-affirmers
+
 Ideas for TODOs:
 
 - [ ] Context-aware engagement prediction
