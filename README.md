@@ -26,6 +26,8 @@ References:
 - Deconfounded Lexicon Induction: https://nlp.stanford.edu/pubs/pryzant2018lexicon.pdf
 - SemEval stance prediction task: http://alt.qcri.org/semeval2016/task6/index.php?id=data-and-tool
 - LIWC: https://www.kovcomp.co.uk/wordstat/LIWC.html
+	- http://lit.eecs.umich.edu/~geoliwc/LIWC_Dictionary.htm
+	- Python wrappers: https://github.com/chbrown/liwc-python, https://pypi.org/project/liwc-analysis/
 - [The New American Lexicon (book page 165; this is the document advising the Republican party on language change)](https://joshuakahnrussell.files.wordpress.com/2008/10/luntzplaybook2006.pdf)
   - A few basic papers on sentiment analysis for climate change language:
     - [Climate Change Sentiment on Twitter: An Unsolicited Public Opinion Poll (highest citation count paper on the subject that I could find)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4546368/)
