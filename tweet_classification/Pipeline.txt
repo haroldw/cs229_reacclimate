@@ -1,4 +1,5 @@
 A. Replicate Koenecke and Felu-Fabà approach
     1. Compile list of influential tweeters on both sides--Done! (influential_tweeters.csv)
-    2. Scrape all their tweets w/ Twint, constrain tweets to those with "global warming", "climate change", other keywords to get set of +1/-1 labeled tweets as Training--in progress...
-    3. Repeat 1.-2. as necessary to achieve balance in Training data
+    2. Scrape all their tweets w/ Twint, constrain tweets to those with "global warming", "climate change", other keywords to get set of +1/-1 labeled tweets as Training--Done!
+    3. Repeat 1.-2. as necessary to achieve balance in Training data--290k denying vs. 230k affirming
+
