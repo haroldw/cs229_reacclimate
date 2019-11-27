@@ -1,2 +1,12 @@
 # ignore per_user_search_term folder
 per_user_search_term_scrapes/
+dedup_test_data.csv
+dedup_training_data.csv
+dedup_val_data.csv
+all_affirm_tweets.pkl
+all_deny_tweets.pkl
+anti_cc_w2v_model.bin
+bnb_5gram.pkl
+bnb_uni_model.pkl
+RNN_glove_model.pkl
+pro_cc_w2v_model.bin
