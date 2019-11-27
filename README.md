@@ -2,8 +2,9 @@
 
 Current:
 - [x] Reach out to Allison Koenecke about using off-the-shelf tweet classifier
-- [ ] Classify Harold et al's tweet data
-- [ ] Retrain language models for climate change affirmers, non-affirmers
+- [x] Classify Harold et al's tweet data
+- [x] Retrain language models for climate change affirmers, non-affirmers
+- [ ] Deconfounded lexicon induction for engagement prediction
 
 Ideas for TODOs:
 
