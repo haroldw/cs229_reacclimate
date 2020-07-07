@@ -1,4 +1,5 @@
 # ignore per_user_search_term folder
+tweet_classification/pro_news_lemmas.pkl
 per_user_search_term_scrapes/
 dedup_test_data.csv
 dedup_training_data.csv
@@ -11,3 +12,11 @@ bnb_uni_model.pkl
 RNN_glove_model.pkl
 pro_cc_w2v_model.bin
 tweet_classification/generated.tsv
+
+tweet_classification/.ipynb_checkpoints/
+tweet_classification/*.bin
+tweet_classification/anti_news_lemmas.pkl
+tweet_classification/pro_news_stems.pkl
+tweet_classification/pro_news_tokenized_sents.pkl
+tweet_classification/pro_news_tokens.pkl
+tweet_classification/anti_news_stems.pkl
