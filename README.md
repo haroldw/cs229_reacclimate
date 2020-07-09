@@ -1,6 +1,35 @@
 # cs229_reacclimate
 
-Current:
+Project outline:
+* A. Identifying words correlated with high engagement
+	1. Getting data w/ signals of engagement
+		- [ ] Find appropriate APIs and request parameters for:
+			- [ ] tweets about climate change etc.
+			- [ ] posts from subreddits about climate change etc.
+	2. Running Reid's deconfounded lexicon induction model
+		- [ ] decide on potential confounding variables
+* B. Identifying effective words
+	1. Review literature on effective climate change communication to compile list of frames/strategies
+		- [ ] framing literature (economic cost, (scientific) uncertainty)
+		- [ ] Gabrielle Wong-Parodi
+	2. Operationalize effective strategies computationally
+		- [ ] create/curate lexicons associated with given frames/strategies 
+	3. Train word embedding models
+		- [ ] gather datasets (news articles, tweets, Reddit posts)
+		- [ ] separate datasets according to variables like attitude, audience, author
+	4. Query models for replacement terms
+* Packaging both components in easy-to-use interface
+
+Potential project timeline:
+- 1. Data collection and pre-processing for components A. and B. (2 weeks; July 13-July 27)
+- 2. Component A. (run Reid's code) (1 week; July 27-August 3)
+- 3. Component B. 
+	- i. Lit review (up to 3 weeks; July 13-August 3)
+	- ii. Create some seed lexicons (1 week; August 3-August 10)
+	- iii. Train and query VSMs (3 weeks; August 11-August 31)
+- 4. Create model interfaces (September)
+
+Old:
 - [x] Reach out to Allison Koenecke about using off-the-shelf tweet classifier
 - [x] Classify Harold et al's tweet data
 - [x] Retrain language models for climate change affirmers, non-affirmers
